@@ -1,7 +1,9 @@
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 # Mobile Document Scanner with Python and OpenCV
 So, I finally completed my first CV project : A Mobile Document Scanner 
+
+
 ## How do I Scan my Documents?
 Easy, just fork this repo into your local machine and then type the following command in the repo directory :
 <pre>
