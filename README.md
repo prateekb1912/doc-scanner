@@ -6,12 +6,14 @@ I have come up with this document scanner made in Python with the help of OpenCV
 Easy, just fork this repo into your local machine and then type the following command in the repo directory :
 <pre>
 <code>
-python3 --image "your-image-file-name-here"
+python3 scan.py --image "your-image-file-name-here"
 </code>
 </pre>
 
 ## Okay, but how does it works?
 The program converts the document image into a scanned file in three steps :
 1. Edge Detection
+<img src='screenshots/ss1.png' height=150 width=150 alt='edged_image'>
+You can see the original image on the left and the edge detected image on the right.
 2. Contour Drawing
 3. Perspective Transformation
