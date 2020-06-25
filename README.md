@@ -11,13 +11,14 @@ python3 scan.py --image "your-image-file-name-here"
 </pre>
 
 ## Okay, but how does it works?
-The program converts the document image into a scanned file in three steps :
-**1. Edge Detection**
+The program converts the document image into a scanned file in three steps : <br>
+<ol>
+  <li><b>Edge Detection</b></li><br>
 <img src='screenshots/ss1.png' height=450 width=450 alt='edged_image'>
-You can see the original image on the left and the edge detected image on the right.<br>
-**2. Contour Drawing**
+<p>You can see the original image on the left and the edge detected image on the right.</p>
+  <li><b>Contour Drawing</b></li><br>
 <img src='screenshots/ss2.png' height=450 width=450 alt='edged_image'>
-See that blue rectangular border around the receipt? That's what a drawn contour is.<br>
-**3. Perspective Transformation**
+<p>See that blue rectangular border around the receipt? That's what a drawn contour is.</p>
+  <li><b>Perspective Transformation</b></li><br>
 <img src='screenshots/ss1.png' height=450 width=450 alt='edged_image'>
-And Voila!, just how we wanted the scanned receipt.
+<p>And Voila!, just how we wanted the scanned receipt.</p>
